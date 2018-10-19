@@ -5,13 +5,19 @@
     <div class="nextEvent">
     </div>
     <div class="pictures">
+      <insta-feed/>
     </div>
   </div>
 </template>
 
 <script>
+import InstaFeed from './InstaFeed.vue';
+
 export default {
   name: 'Explore',
+  components: {
+    InstaFeed,
+  },
 };
 </script>
 
