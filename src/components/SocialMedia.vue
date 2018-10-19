@@ -2,12 +2,7 @@
   <ul class="socialMedia">
     <li class="socialMedia__item">
       <a target="_blank" href="https://www.facebook.com/unknownchapters/">
-        <i class="fab fa-facebook-f"/>
-      </a>
-    </li>
-    <li class="socialMedia__item">
-      <a target="_blank" href="https://open.spotify.com/artist/1NtDCbBi3GqDvVxxdPPold">
-        <i class="fab fa-spotify"></i>
+        <i class="fab fa-facebook-square"/>
       </a>
     </li>
     <li class="socialMedia__item">
@@ -18,6 +13,31 @@
     <li class="socialMedia__item">
       <a target="_blank" href="https://twitter.com/unknownchapt">
         <i class="fab fa-twitter"/>
+      </a>
+    </li>
+    <li class="socialMedia__item">
+      <a target="_blank" href="https://open.spotify.com/artist/1NtDCbBi3GqDvVxxdPPold">
+        <i class="fab fa-spotify"/>
+      </a>
+    </li>
+    <li class="socialMedia__item">
+      <a target="_blank" href="https://itunes.apple.com/gb/artist/unknown-chapters/1406445840">
+        <i class="fab fa-itunes"/>
+      </a>
+    </li>
+    <li class="socialMedia__item">
+      <a target="_blank" href="https://soundcloud.com/unknown-chapters">
+        <i class="fab fa-soundcloud"/>
+      </a>
+    </li>
+    <li class="socialMedia__item">
+      <a target="_blank" href="https://www.youtube.com/channel/UCKP1PtHlztxNAaqrIJIIiUQ">
+        <i class="fab fa-youtube"/>
+      </a>
+    </li>
+    <li class="socialMedia__item">
+      <a href="mailto:info.unknownchapters@gmail.com">
+        <i class="far fa-envelope"/>
       </a>
     </li>
   </ul>
@@ -32,38 +52,14 @@ export default {
 <style lang="scss">
   .socialMedia {
     display: inline-block;
-    padding: 10px 0;
 
     &__item {
       display: inline-block;
-      margin: 0 20px;
+      margin: 0 1.5rem;
 
       a i {
-        font-size: 4rem;
-
-        &.fa-facebook-f {
-          background: -webkit-linear-gradient(45deg, #fc79ff, #ab0068);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-        }
-
-        &.fa-spotify {
-          background: -webkit-linear-gradient(45deg, #ab0068, #ff5d2a);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-        }
-
-        &.fa-instagram {
-          background: -webkit-linear-gradient(45deg, #ff5d2a, #8e0000);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-        }
-
-        &.fa-twitter {
-          background: -webkit-linear-gradient(45deg, #8e0000, #ede300);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-        }
+        font-size: 3rem;
+        color: #fff;
       }
     }
   }
