@@ -21,6 +21,6 @@ export default {
     max-width: 900px;
     margin: auto;
     font-size: 1.7rem;
-    padding: 40px;
+    padding: 70px;
   }
 </style>

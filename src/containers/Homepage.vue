@@ -1,8 +1,9 @@
 <template>
   <div class="homepage">
-    <hero/>
-    <description/>
-    <explore/>
+    <Hero/>
+    <Description/>
+    <Explore/>
+    <Footer/>
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import Hero from '../components/Hero.vue';
 import Description from '../components/Description.vue';
 import Explore from '../components/Explore.vue';
+import Footer from '../components/Footer.vue';
 
 export default {
   name: 'Homepage',
@@ -17,18 +19,10 @@ export default {
     Hero,
     Description,
     Explore,
+    Footer,
   },
 };
 </script>
 
 <style lang="scss">
-  @keyframes fadeInFromNone {
-    0% {
-      opacity: 0;
-    }
-
-    100% {
-      opacity: 1;
-    }
-  }
 </style>

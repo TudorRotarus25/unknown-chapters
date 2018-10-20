@@ -57,9 +57,16 @@ export default {
       display: inline-block;
       margin: 0 1.5rem;
 
-      a i {
-        font-size: 3rem;
-        color: #fff;
+      a {
+        i {
+          font-size: 3rem;
+          color: #fff;
+          transition: 0.3s;
+
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
       }
     }
   }

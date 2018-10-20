@@ -32,7 +32,7 @@ export default {
         }
 
         response.data.data.slice(0, 4).forEach((post) => {
-          this.images.push(post.images.low_resolution.url);
+          this.images.push(post.images.standard_resolution.url);
         });
       });
   },
@@ -48,15 +48,41 @@ export default {
     align-items: center;
     justify-content: center;
     height: 100%;
+    overflow: hidden;
+
+    &:hover {
+      .imageContainer {
+        transform: none !important;
+      }
+    }
 
     .imageContainer {
       display: inline-block;
-      margin: 20px;
+      margin: 10px;
       background-color: #fff;
-      padding: 6px;
+      padding: 4px;
+      transition: 0.8s;
+
+      &:nth-child(1) {
+        transform: rotate(10deg) translateX(200px);
+      }
+
+      &:nth-child(2) {
+        transform: rotate(-20deg) translateX(60px);
+        z-index: 1;
+      }
+
+      &:nth-child(3) {
+        transform: rotate(8deg) translateX(-40px);
+      }
+
+      &:nth-child(4) {
+        transform: rotate(-17deg) translateX(-200px);
+      }
 
       img {
         display: block;
+        width: 200px;
       }
     }
   }
