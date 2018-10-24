@@ -2,8 +2,13 @@
   <div class="explore">
     <div class="latestRelease">
       <a target="_blank" href="https://open.spotify.com/album/5kWPhip1gDKVphbRrcIpg4">
-        <div class="imageContainer">
-          <img src="../assets/losingMyMind.jpg"/>
+        <div
+          class="imageContainer"
+        >
+          <img
+            ref="latestReleaseImage"
+            src="../assets/losingMyMind.jpg"
+          />
         </div>
         <div class="cta">
           <p>Check out our latest single</p>
@@ -14,10 +19,13 @@
     <div class="nextEvent">
       <a target="_blank" href="https://www.facebook.com/pg/unknownchapters/events/">
         <div class="imageContainer">
-          <img src="../assets/gigs.jpg"/>
+          <img
+            ref="nexEventImage"
+            src="../assets/gigs.jpg"
+          />
         </div>
         <div class="cta">
-          <p>Come to our next gig</p>
+          <p>Join us at our next gig</p>
           <span class="button">Open on Facebook</span>
         </div>
       </a>
@@ -35,12 +43,23 @@
 </template>
 
 <script>
+import VanillaTilt from 'vanilla-tilt';
 import InstaFeed from './InstaFeed.vue';
 
 export default {
   name: 'Explore',
   components: {
     InstaFeed,
+  },
+  mounted() {
+    const tiltOptions = {
+      reverse: true,
+      max: 20,
+      speed: 5000,
+    };
+
+    VanillaTilt.init(this.$refs.latestReleaseImage, tiltOptions);
+    VanillaTilt.init(this.$refs.nexEventImage, tiltOptions);
   },
 };
 </script>
@@ -74,23 +93,22 @@ export default {
           }
 
           .button {
-            background-color: #fff;
-            color: #6ea6b1;
+            opacity: 1;
           }
         }
       }
 
       .imageContainer {
         position: absolute;
-        top: 40%;
+        top: 36%;
         left: 50%;
         transform: translate(-50%, -50%);
-        box-shadow: 0 5px 20px 2px rgba(0, 0, 0, .5);
         transition: $transitions-time;
 
         img {
+          box-shadow: 0 5px 20px 2px rgba(0, 0, 0, 0.5);
           display: block;
-          width: 200px;
+          width: 280px;
         }
       }
     }
@@ -101,16 +119,16 @@ export default {
     }
 
     .latestRelease {
-      background-color: #6ea6b1;
+      background-color: #231f35;
     }
 
     .nextEvent {
-      background-color: #7dbcab;
+      background-color: #660000;
     }
 
     .pictures {
       flex-basis: 100%;
-      background-color: #d19b9b;
+      background-color: #0f0f0f;
 
       .cta {
         bottom: 50px;
@@ -132,6 +150,7 @@ export default {
       border-radius: 20px;
       padding: 10px 20px;
       transition: $transitions-time;
+      opacity: .7;
     }
   }
 </style>

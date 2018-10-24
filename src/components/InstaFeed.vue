@@ -77,12 +77,12 @@ export default {
       }
 
       &:nth-child(4) {
-        transform: rotate(-17deg) translateX(-200px);
+        transform: rotate(-15deg) translateX(-200px);
       }
 
       img {
         display: block;
-        width: 200px;
+        width: 250px;
       }
     }
   }

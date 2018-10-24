@@ -1,20 +1,14 @@
 <template>
   <div class="hero">
     <div class="hero__imageContainer">
-      <img src="../assets/uc-animated.gif"/>
+      <img src="../assets/uc-transparent-hero.png">
     </div>
-    <SocialMedia class="socialMedia"/>
   </div>
 </template>
 
 <script>
-import SocialMedia from './SocialMedia.vue';
-
 export default {
   name: 'Hero',
-  components: {
-    SocialMedia,
-  },
 };
 </script>
 
@@ -23,7 +17,7 @@ export default {
   scoped
 >
   .hero {
-    background-color: #85b7c1;
+    background-color: #660000;
     height: 100vh;
     position: relative;
     width: 100%;
@@ -35,16 +29,8 @@ export default {
       transform: translate(-50%, -50%);
 
       img {
-        max-width: 750px;
+        max-width: 650px;
       }
-    }
-
-    .socialMedia {
-      position: absolute;
-      bottom: 40px;
-      width: 100%;
-      text-align: center;
-      left: 0;
     }
   }
 </style>

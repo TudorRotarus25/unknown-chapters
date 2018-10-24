@@ -55,16 +55,16 @@ export default {
 
     &__item {
       display: inline-block;
-      margin: 0 1.5rem;
+      margin: 0 1rem;
 
       a {
         i {
-          font-size: 3rem;
+          font-size: 2rem;
           color: #fff;
           transition: 0.3s;
 
           &:hover {
-            transform: scale(1.1);
+            transform: scale(1.2);
           }
         }
       }

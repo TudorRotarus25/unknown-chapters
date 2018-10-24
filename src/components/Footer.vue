@@ -4,7 +4,10 @@
       <div class="container__left">
         © Unknown Chapters 2018
       </div>
-      <div class="container__right">
+      <div
+        class="container__right"
+        @click="copyMailToClipboard"
+      >
         <i class="fas fa-envelope-open"/>
         info.unknownchapters@gmail.com
       </div>
@@ -23,7 +26,7 @@ export default {
   scoped
 >
   footer {
-    background-color: #6ea6b1;
+    background-color: #231f35;
     height: 100px;
 
     .container {
