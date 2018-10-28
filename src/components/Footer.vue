@@ -26,7 +26,7 @@ export default {
   scoped
 >
   footer {
-    background-color: #231f35;
+    background-color: #1e1b18;
     height: 100px;
 
     .container {

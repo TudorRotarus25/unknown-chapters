@@ -119,16 +119,16 @@ export default {
     }
 
     .latestRelease {
-      background-color: #231f35;
+      background-color: #564d4a;
     }
 
     .nextEvent {
-      background-color: #660000;
+      background-color: #a52422;
     }
 
     .pictures {
       flex-basis: 100%;
-      background-color: #0f0f0f;
+      background-color: #5b2333;
 
       .cta {
         bottom: 50px;

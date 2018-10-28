@@ -17,7 +17,7 @@ export default {
   scoped
 >
   .hero {
-    background-color: #660000;
+    background-color: #a52422;
     height: 100vh;
     position: relative;
     width: 100%;

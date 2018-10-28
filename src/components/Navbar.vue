@@ -26,9 +26,8 @@ export default {
 >
   .navbar {
     z-index: 5;
-    background-color: #660000;
-    border-top: 1px solid #350000;
-    border-bottom: 1px solid #660000;
+    background-color: #1e1b18;
+    border-bottom: 1px solid #1e1b18;
     position: absolute;
     bottom: 0;
     left: 0;
