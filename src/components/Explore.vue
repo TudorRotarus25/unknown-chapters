@@ -118,8 +118,10 @@ export default {
       flex-basis: calc(50% - 4px);
     }
 
+    /* #564d4a */
     .latestRelease {
-      background-color: #564d4a;
+      /*background-color: #284b89;*/
+      background-color: #2e2b37;
     }
 
     .nextEvent {
@@ -128,7 +130,7 @@ export default {
 
     .pictures {
       flex-basis: 100%;
-      background-color: #5b2333;
+      background-color: #100d0d;
 
       .cta {
         bottom: 50px;

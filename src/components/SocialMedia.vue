@@ -55,11 +55,11 @@ export default {
 
     &__item {
       display: inline-block;
-      margin: 0 1rem;
+      margin: 0 25px;
 
       a {
         i {
-          font-size: 2rem;
+          font-size: 2.5rem;
           color: #fff;
           transition: 0.3s;
 

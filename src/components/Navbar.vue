@@ -1,22 +1,26 @@
 <template>
   <div class="navbar">
-    <div class="navbar__left">
-      <img class="shapeLogo" src="../assets/uc-hexa-logo.png"/>
+    <div class="navbar__brand">
+      <img class="shapeLogo" src="../assets/trasparenza2048x1152.png"/>
     </div>
-    <div class="navbar__right">
-      <SocialMedia/>
-    </div>
+    <ul class="navigation">
+      <li class="navigation__item">
+        <a>
+          Explore
+        </a>
+      </li>
+      <li class="navigation__item">
+        <a>
+          Electronic Press Kit
+        </a>
+      </li>
+    </ul>
   </div>
 </template>
 
 <script>
-import SocialMedia from './SocialMedia.vue';
-
 export default {
   name: 'Navbar',
-  components: {
-    SocialMedia,
-  },
 };
 </script>
 
@@ -26,26 +30,48 @@ export default {
 >
   .navbar {
     z-index: 5;
-    background-color: #1e1b18;
-    border-bottom: 1px solid #1e1b18;
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
     right: 0;
-    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 50px;
+    padding: 20px 50px;
 
-    &__left {
-      position: relative;
-
+    &__brand {
       .shapeLogo {
-        position: absolute;
-        height: 140px;
-        bottom: -35px;
-        left: 150px;
+        height: 70px;
+      }
+    }
+
+    .navigation {
+      list-style: none;
+
+      &__item {
+        display: inline-block;
+        padding: 0 20px;
+
+        a {
+          font-size: 1.2rem;
+          cursor: pointer;
+          position: relative;
+
+          &:after {
+            display: none;
+            content: '';
+            width: 26px;
+            height: 2px;
+            background-color: #000;
+            position: absolute;
+            bottom: -6px;
+            left: calc(50% - 13px);
+          }
+
+          &:hover:after {
+            display: block;
+          }
+        }
       }
     }
   }

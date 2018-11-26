@@ -2,6 +2,7 @@
   <div class="homepage">
     <Navbar/>
     <Hero/>
+    <Contact/>
     <Description/>
     <Explore/>
     <Footer/>
@@ -10,6 +11,7 @@
 
 <script>
 import Hero from '../components/Hero.vue';
+import Contact from '../components/Contact.vue';
 import Description from '../components/Description.vue';
 import Explore from '../components/Explore.vue';
 import Footer from '../components/Footer.vue';
@@ -20,6 +22,7 @@ export default {
   components: {
     Navbar,
     Hero,
+    Contact,
     Description,
     Explore,
     Footer,

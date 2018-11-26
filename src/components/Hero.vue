@@ -1,7 +1,10 @@
 <template>
   <div class="hero">
     <div class="hero__imageContainer">
-      <img src="../assets/uc-transparent-hero.png">
+      <img src="../assets/aligatorWebSite.png">
+    </div>
+    <div class="hero__caption">
+      UNKNOWN CHAPTERS
     </div>
   </div>
 </template>
@@ -17,7 +20,7 @@ export default {
   scoped
 >
   .hero {
-    background-color: #a52422;
+    background-color: #fff;
     height: 100vh;
     position: relative;
     width: 100%;
@@ -29,8 +32,17 @@ export default {
       transform: translate(-50%, -50%);
 
       img {
-        max-width: 650px;
+        max-width: 500px;
       }
+    }
+
+    &__caption {
+      position: absolute;
+      top: 75%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 1.3rem;
+      letter-spacing: 15px;
     }
   }
 </style>
