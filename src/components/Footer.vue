@@ -8,8 +8,10 @@
         class="container__right"
         @click="copyMailToClipboard"
       >
-        <i class="fas fa-envelope-open"/>
-        info.unknownchapters@gmail.com
+        <a href="mailto:info.unknownchapters@gmail.com">
+          <i class="fas fa-envelope-open"/>
+          info.unknownchapters@gmail.com
+        </a>
       </div>
     </div>
   </footer>
@@ -26,8 +28,8 @@ export default {
   scoped
 >
   footer {
-    background-color: #2e2b37;
-    height: 100px;
+    background-color: #fff;
+    height: 150px;
 
     .container {
       display: flex;
@@ -35,9 +37,15 @@ export default {
       align-items: center;
       height: 100%;
       padding: 0 80px;
-      color: #fff;
+      color: #000;
       font-size: 1.2rem;
       font-weight: bold;
+      border-top: 3px solid #000;
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
 
       &__right {
         i {

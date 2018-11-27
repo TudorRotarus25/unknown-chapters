@@ -4,7 +4,10 @@
       <img src="../assets/aligatorWebSite.png">
     </div>
     <div class="hero__caption">
-      UNKNOWN CHAPTERS
+      ALLIGATOR
+      <p class="hero__subCaption">
+        OUR NEW SINGLE - OUT SOON
+      </p>
     </div>
   </div>
 </template>
@@ -43,6 +46,13 @@ export default {
       transform: translate(-50%, -50%);
       font-size: 1.3rem;
       letter-spacing: 15px;
+      margin-top: 30px;
+    }
+
+    &__subCaption {
+      font-size: 0.7em;
+      letter-spacing: 13px;
+      margin: 30px 0;
     }
   }
 </style>

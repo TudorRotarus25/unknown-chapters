@@ -11,7 +11,9 @@
           />
         </div>
         <div class="cta">
-          <p>Check out our latest single</p>
+          <p>
+            Check out our music
+          </p>
           <span class="button">Open on Spotify</span>
         </div>
       </a>
@@ -25,7 +27,9 @@
           />
         </div>
         <div class="cta">
-          <p>Join us at our next gig</p>
+          <p>
+            Join us at our next gig
+          </p>
           <span class="button">Open on Facebook</span>
         </div>
       </a>
@@ -74,6 +78,7 @@ export default {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 8px;
 
     .latestRelease,
     .nextEvent,
@@ -118,19 +123,19 @@ export default {
       flex-basis: calc(50% - 4px);
     }
 
-    /* #564d4a */
+    $linearAngle: 60deg;
+
     .latestRelease {
-      /*background-color: #284b89;*/
-      background-color: #2e2b37;
+      background: linear-gradient($linearAngle, #592766, #ff3141);
     }
 
     .nextEvent {
-      background-color: #a52422;
+      background: linear-gradient($linearAngle, #013142, #01a5a2);
     }
 
     .pictures {
       flex-basis: 100%;
-      background-color: #100d0d;
+      background-color: #000;
 
       .cta {
         bottom: 50px;

@@ -37,7 +37,7 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
+    padding: 30px 50px;
 
     &__brand {
       .shapeLogo {
@@ -62,7 +62,7 @@ export default {
             content: '';
             width: 26px;
             height: 2px;
-            background-color: #000;
+            background-color: #ff0065;
             position: absolute;
             bottom: -6px;
             left: calc(50% - 13px);

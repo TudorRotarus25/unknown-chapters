@@ -77,7 +77,7 @@ export default {
       }
 
       &:nth-child(4) {
-        transform: rotate(-15deg) translateX(-200px);
+        transform: rotate(10deg) translateX(-200px);
       }
 
       img {
