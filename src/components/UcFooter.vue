@@ -6,7 +6,6 @@
       </div>
       <div
         class="container__right"
-        @click="copyMailToClipboard"
       >
         <a href="mailto:info.unknownchapters@gmail.com">
           <i class="fas fa-envelope-open"/>
