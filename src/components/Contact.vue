@@ -9,7 +9,7 @@
         </p>
       </div>
       <div class="socialMediaContent">
-        <SocialMedia/>
+        <social-media/>
       </div>
     </div>
   </div>

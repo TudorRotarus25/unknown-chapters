@@ -5,14 +5,14 @@
     </div>
     <ul class="navigation">
       <li class="navigation__item">
-        <a>
+        <router-link to="/">
           Explore
-        </a>
+        </router-link>
       </li>
       <li class="navigation__item">
-        <a>
+        <router-link to="/epk">
           Electronic Press Kit
-        </a>
+        </router-link>
       </li>
     </ul>
   </div>
@@ -56,6 +56,8 @@ export default {
           font-size: 1.2rem;
           cursor: pointer;
           position: relative;
+          text-decoration: none;
+          color: inherit;
 
           &:after {
             display: none;

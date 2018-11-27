@@ -1,17 +1,21 @@
 <template>
   <div id="app">
-    <homepage/>
+    <navbar/>
+    <router-view/>
+    <uc-footer/>
   </div>
 </template>
 
 <script>
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import Homepage from './containers/Homepage.vue';
+import Navbar from './components/Navbar.vue';
+import UcFooter from './components/UcFooter.vue';
 
 export default {
   name: 'app',
   components: {
-    Homepage,
+    Navbar,
+    UcFooter,
   },
 };
 </script>
