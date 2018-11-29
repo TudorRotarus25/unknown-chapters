@@ -31,23 +31,33 @@ export default {
   scoped
 >
   .contact {
-    height: 700px;
+    height: 480px;
     overflow: hidden;
     position: relative;
+
+    @media screen and (min-width: 768px) {
+      height: 700px;
+    }
 
     &__inner {
       position: absolute;
       transform: rotate(-5deg);
-      width:110%;
-      top: 20%;
-      bottom: -20%;
+      width:120%;
+      top: 5%;
+      bottom: -5%;
       left:-5%;
       background-color: #000;
+
+      @media screen and (min-width: 500px) {
+        width:110%;
+        top: 20%;
+        bottom: -20%;
+      }
     }
 
     &__content {
       position: absolute;
-      top: 33%;
+      top: 15%;
       bottom: 0;
       width: 100%;
       text-align: center;
@@ -56,13 +66,26 @@ export default {
       justify-content: center;
       align-items: center;
 
+      @media screen and (min-width: 500px) {
+        top: 33%;
+      }
+
       .description {
         max-width: 900px;
-        font-size: 1.7rem;
+        font-size: 1.4rem;
         font-weight: 300;
-        padding: 10px 70px;
+        padding: 10px 20px;
         color: #fff;
         line-height: 1.3;
+
+        @media screen and (min-width: 500px) {
+          padding: 10px 50px;
+        }
+
+        @media screen and (min-width: 768px) {
+          padding: 10px 70px;
+          font-size: 1.7rem;
+        }
       }
 
       .socialMediaContent {

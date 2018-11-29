@@ -47,23 +47,12 @@
 </template>
 
 <script>
-import VanillaTilt from 'vanilla-tilt';
 import InstaFeed from './InstaFeed.vue';
 
 export default {
   name: 'Explore',
   components: {
     InstaFeed,
-  },
-  mounted() {
-    const tiltOptions = {
-      reverse: true,
-      max: 20,
-      speed: 5000,
-    };
-
-    VanillaTilt.init(this.$refs.latestReleaseImage, tiltOptions);
-    VanillaTilt.init(this.$refs.nexEventImage, tiltOptions);
   },
 };
 </script>
@@ -83,22 +72,32 @@ export default {
     .latestRelease,
     .nextEvent,
     .pictures {
-      height: 600px;
+      height: 400px;
       margin-bottom: 8px;
       position: relative;
+
+      @media screen and (min-width: 500px) {
+        height: 450px;
+      }
+
+      @media screen and (min-width: 768px) {
+        height: 600px;
+      }
 
       a {
         display: block;
         height: 100%;
         width: 100%;
 
-        &:hover {
-          .imageContainer {
-            transform: translate(-50%, -50%) scale(1.2);
-          }
+        @media screen and (min-width: 1024px) {
+          &:hover {
+            .imageContainer {
+              transform: translate(-50%, -50%) scale(1.2);
+            }
 
-          .button {
-            opacity: 1;
+            .button {
+              opacity: 1;
+            }
           }
         }
       }
@@ -113,14 +112,22 @@ export default {
         img {
           box-shadow: 0 5px 20px 2px rgba(0, 0, 0, 0.5);
           display: block;
-          width: 280px;
+          width: 200px;
+
+          @media screen and (min-width: 500px) {
+            width: 280px;
+          }
         }
       }
     }
 
     .latestRelease,
     .nextEvent {
-      flex-basis: calc(50% - 4px);
+      flex-basis: 100%;
+
+      @media screen and (min-width: 1024px) {
+        flex-basis: calc(50% - 4px);
+      }
     }
 
     $linearAngle: 60deg;
@@ -136,9 +143,19 @@ export default {
     .pictures {
       flex-basis: 100%;
       background-color: #000;
+      width: 100%;
+      padding-bottom: 50px;
+
+      @media screen and (min-width: 768px) {
+        padding-bottom: 0;
+      }
 
       .cta {
-        bottom: 50px;
+        bottom: 35px;
+
+        @media screen and (min-width: 500px) {
+          bottom: 50px;
+        }
       }
     }
   }
@@ -147,9 +164,13 @@ export default {
     font-size: 1.5rem;
     color: #fff;
     position: absolute;
-    bottom: 100px;
+    bottom: 50px;
     width: 100%;
     text-align: center;
+
+    @media screen and (min-width: 768px) {
+      bottom: 100px;
+    }
 
     .button {
       font-size: 0.7em;
@@ -157,7 +178,10 @@ export default {
       border-radius: 20px;
       padding: 10px 20px;
       transition: $transitions-time;
-      opacity: .7;
+
+      @media screen and (min-width: 1024px) {
+        opacity: .7;
+      }
     }
   }
 </style>

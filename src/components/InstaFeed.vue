@@ -31,7 +31,7 @@ export default {
           return;
         }
 
-        response.data.data.slice(0, 4).forEach((post) => {
+        response.data.data.slice(0, 5).forEach((post) => {
           this.images.push(post.images.standard_resolution.url);
         });
       });
@@ -45,6 +45,7 @@ export default {
 >
   .instaFeed {
     display: flex;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
     height: 100%;
@@ -63,21 +64,53 @@ export default {
       padding: 4px;
       transition: 0.8s;
 
-      &:nth-child(1) {
-        transform: rotate(10deg) translateX(200px);
-      }
-
-      &:nth-child(2) {
-        transform: rotate(-20deg) translateX(60px);
-        z-index: 1;
-      }
-
-      &:nth-child(3) {
-        transform: rotate(8deg) translateX(-40px);
-      }
-
       &:nth-child(4) {
-        transform: rotate(10deg) translateX(-200px);
+        display: none;
+      }
+
+      &:nth-child(5) {
+        display: none;
+      }
+
+      @media screen and (min-width: 900px) {
+        &:nth-child(1) {
+          transform: rotate(-20deg) translateX(150px);
+          z-index: 1;
+        }
+
+        &:nth-child(2) {
+          transform: rotate(40deg) translateX(-5px);
+        }
+
+        &:nth-child(3) {
+          transform: rotate(10deg) translateX(-120px);
+          z-index: 2;
+        }
+      }
+
+      @media screen and (min-width: 1440px) {
+        &:nth-child(1) {
+          transform: rotate(10deg) translateX(280px);
+        }
+
+        &:nth-child(2) {
+          transform: rotate(-20deg) translateX(100px);
+          z-index: 1;
+        }
+
+        &:nth-child(3) {
+          transform: rotate(40deg) translateX(-5px);
+        }
+
+        &:nth-child(4) {
+          display: block;
+          transform: rotate(10deg) translateX(-120px);
+        }
+
+        &:nth-child(5) {
+          display: block;
+          transform: rotate(-10deg) translateX(-290px);
+        }
       }
 
       img {

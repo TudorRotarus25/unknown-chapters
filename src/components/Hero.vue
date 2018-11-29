@@ -6,7 +6,7 @@
     <div class="hero__caption">
       ALLIGATOR
       <p class="hero__subCaption">
-        OUR NEW SINGLE - OUT SOON
+        OUR NEW SINGLE<span class="separator"> - </span><span class="outSoon">OUT SOON</span>
       </p>
     </div>
   </div>
@@ -31,28 +31,59 @@ export default {
     &__imageContainer {
       position: absolute;
       top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      left: 0;
+      width: 100%;
+      transform: translateY(-50%);
 
       img {
         max-width: 500px;
+        width: 80%;
       }
     }
 
     &__caption {
       position: absolute;
       top: 75%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      left: 0;
+      width: 100%;
+      transform: translateY(-50%);
       font-size: 1.3rem;
       letter-spacing: 15px;
-      margin-top: 30px;
+      margin-top: 22px;
+
+      @media screen and (min-width: 600px) {
+        margin-top: 30px;
+      }
     }
 
     &__subCaption {
       font-size: 0.7em;
-      letter-spacing: 13px;
-      margin: 30px 0;
+      letter-spacing: 10px;
+      margin: 22px 0;
+      padding: 0 10px;
+
+      @media screen and (min-width: 600px) {
+        letter-spacing: 13px;
+        margin: 30px 0;
+      }
+
+      .separator {
+        display: none;
+
+        @media screen and (min-width: 600px) {
+          display: inline-block;
+        }
+      }
+
+      .outSoon {
+        display: block;
+        margin-top: 8px;
+
+        @media screen and (min-width: 600px) {
+          display: inline-block;
+          margin-top: 0;
+        }
+      }
     }
   }
 </style>

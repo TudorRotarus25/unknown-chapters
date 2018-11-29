@@ -23,6 +23,14 @@ export default {
 <style lang="scss">
   @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400');
 
+  html {
+    font-size: 14px;
+
+    @media screen and (min-width: 768px) {
+      font-size: 16px;
+    }
+  }
+
   body {
     margin: 0;
   }

@@ -1,7 +1,9 @@
 <template>
   <div class="navbar">
     <div class="navbar__brand">
-      <img class="shapeLogo" src="../assets/trasparenza2048x1152.png"/>
+      <router-link to="/">
+        <img class="shapeLogo" src="../assets/trasparenza2048x1152.png"/>
+      </router-link>
     </div>
     <ul class="navigation">
       <li class="navigation__item">
@@ -35,9 +37,13 @@ export default {
     left: 0;
     right: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 30px 50px;
+
+    @media screen and (min-width: 768px) {
+      justify-content: space-between;
+    }
 
     &__brand {
       .shapeLogo {
@@ -46,7 +52,12 @@ export default {
     }
 
     .navigation {
+      display: none;
       list-style: none;
+
+      @media screen and (min-width: 768px) {
+        display: block;
+      }
 
       &__item {
         display: inline-block;

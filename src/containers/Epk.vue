@@ -1,6 +1,8 @@
 <template>
   <div class="epk">
-    Pula
+    <h1>
+      Coming soon...
+    </h1>
   </div>
 </template>
 
@@ -9,3 +11,12 @@ export default {
   name: 'Epk',
 };
 </script>
+
+<style
+  lang="scss"
+  scoped
+>
+  .epk {
+    padding: 300px 0;
+  }
+</style>

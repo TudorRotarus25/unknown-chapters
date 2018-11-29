@@ -52,16 +52,34 @@ export default {
 <style lang="scss">
   .socialMedia {
     display: inline-block;
+    width: 290px;
+
+    @media screen and (min-width: 500px) {
+      width: 100%;
+    }
 
     &__item {
       display: inline-block;
-      margin: 0 25px;
+      margin: 15px;
+
+      @media screen and (min-width: 500px) {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      @media screen and (min-width: 768px) {
+        margin: 0 25px;
+      }
 
       a {
         i {
-          font-size: 2.5rem;
+          font-size: 2.2rem;
           color: #fff;
           transition: 0.3s;
+
+          @media screen and (min-width: 768px) {
+            font-size: 2.5rem;
+          }
 
           &:hover {
             transform: scale(1.5);
