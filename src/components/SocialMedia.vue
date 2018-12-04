@@ -1,5 +1,5 @@
 <template>
-  <ul class="socialMedia">
+  <ul :class="{socialMedia: true, dark: theme === 'dark'}">
     <li class="socialMedia__item">
       <a target="_blank" href="https://www.facebook.com/unknownchapters/">
         <i class="fab fa-facebook-square"/>
@@ -46,6 +46,12 @@
 <script>
 export default {
   name: 'SocialMedia',
+  props: {
+    theme: {
+      type: String,
+      default: 'light',
+    },
+  },
 };
 </script>
 
@@ -56,6 +62,12 @@ export default {
 
     @media screen and (min-width: 500px) {
       width: 100%;
+    }
+
+    &.dark {
+      a i {
+        color: #000;
+      }
     }
 
     &__item {
