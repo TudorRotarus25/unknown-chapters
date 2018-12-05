@@ -144,8 +144,6 @@ export default {
 };
 </script>
 
-
-
 <style
   lang="scss"
   scoped
@@ -165,20 +163,20 @@ export default {
     }
 
     .section {
-      padding: 10px 0;
+      padding: 10px;
     }
 
     .images-container {
       display: flex;
       flex-wrap: wrap;
-      /*justify-content: space-around;*/
+      justify-content: center;
 
       .image-container {
         padding: 5px;
 
         &__image {
           height: 200px;
-          width: 290px;
+          width: 280px;
           background-color: #000;
           background-position: center;
           background-repeat: no-repeat;
@@ -194,10 +192,15 @@ export default {
         justify-content: space-between;
 
         &__item {
-          flex-basis: 21%;
+          flex-basis: 46%;
           height: 60px;
           box-shadow: 0 0 25px rgba(0, 0, 0, .2);
           transition: .3s;
+          margin: 2%;
+
+          @media screen and (min-width: 768px) {
+            flex-basis: 21%;
+          }
 
           &:hover {
             box-shadow: 0 0 25px rgba(0, 0, 0, .4);
