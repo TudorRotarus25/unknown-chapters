@@ -9,7 +9,7 @@
       >
         <a href="mailto:info.unknownchapters@gmail.com">
           <i class="fas fa-envelope-open"/>
-          hello@unknownchapters.com
+          info.unknownchapters@gmail.com
         </a>
       </div>
     </div>

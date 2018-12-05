@@ -62,9 +62,43 @@
     </div>
     <div class="epk-details__images section">
       <h2>Images</h2>
+      <div class="images-container">
+        <div
+          v-for="image in images"
+          :key="image.id"
+          class="image-container"
+        >
+          <a
+            :href="image.path"
+            target="_blank"
+          >
+            <div
+              class="image-container__image"
+              :style="`background-image: url(${image.thumbnail};`"
+            />
+          </a>
+        </div>
+      </div>
     </div>
     <div class="epk-details__visuals section">
       <h2>Visuals</h2>
+      <div class="images-container">
+        <div
+          v-for="image in visuals"
+          :key="image.id"
+          class="image-container"
+        >
+          <a
+            :href="image.path"
+            target="_blank"
+          >
+            <div
+              class="image-container__image"
+              :style="`background-image: url(${image.thumbnail};`"
+            />
+          </a>
+        </div>
+      </div>
     </div>
     <div class="epk-details__socials section">
       <h2>Socials</h2>
@@ -79,9 +113,21 @@ import SocialMedia from './SocialMedia.vue';
 export default {
   name: 'EpkDetails',
   components: {
-    SocialMedia
+    SocialMedia,
   },
   props: {
+    images: {
+      type: Array,
+      default() {
+        return [];
+      },
+    },
+    visuals: {
+      type: Array,
+      default() {
+        return [];
+      },
+    },
     pressArticles: {
       type: Array,
       default() {
@@ -97,6 +143,8 @@ export default {
   },
 };
 </script>
+
+
 
 <style
   lang="scss"
@@ -120,11 +168,30 @@ export default {
       padding: 10px 0;
     }
 
+    .images-container {
+      display: flex;
+      flex-wrap: wrap;
+      /*justify-content: space-around;*/
+
+      .image-container {
+        padding: 5px;
+
+        &__image {
+          height: 200px;
+          width: 290px;
+          background-color: #000;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: auto 100%;
+        }
+      }
+    }
+
     &__press-articles {
       .press-articles-list {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-between;
 
         &__item {
           flex-basis: 21%;

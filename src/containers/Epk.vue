@@ -2,6 +2,8 @@
   <div class="epk">
     <small-hero />
     <epk-details
+      :images="images"
+      :visuals="visuals"
       :press-articles="pressArticles"
       :singles="singles"
     />
@@ -22,6 +24,7 @@ export default {
   data() {
     return {
       images: [],
+      visuals: [],
       singles: [],
       pressArticles: [],
     };
@@ -33,6 +36,7 @@ export default {
       .then((response) => {
         if (response.status === 200 && response.data) {
           this.images = response.data.images;
+          this.visuals = response.data.visuals;
           this.singles = response.data.singles;
           this.pressArticles = response.data.pressArticles;
         }
