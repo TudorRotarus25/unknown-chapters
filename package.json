@@ -6,7 +6,9 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "test:unit": "vue-cli-service test:unit"
+    "test:unit": "vue-cli-service test:unit",
+    "deploy": "node node_modules/s3-deploy/.bin/s3-deploy './dist/**' --cwd './dist/' --region eu-west-2 --bucket unknownchapters.com --profile default",
+    "release": "npm run build && npm run deploy"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.4.0",
@@ -24,6 +26,7 @@
     "@vue/test-utils": "^1.0.0-beta.20",
     "chai": "^4.1.2",
     "node-sass": "4.9.3",
+    "s3-deploy": "^1.2.0",
     "sass-loader": "7.1.0",
     "vue-template-compiler": "^2.5.17"
   }

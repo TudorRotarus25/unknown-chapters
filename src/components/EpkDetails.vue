@@ -60,11 +60,11 @@
         </li>
       </ul>
     </div>
-    <div class="epk-details__images section">
-      <h2>Images</h2>
+    <div class="epk-details__visuals section">
+      <h2>Visuals</h2>
       <div class="images-container">
         <div
-          v-for="image in images"
+          v-for="image in visuals"
           :key="image.id"
           class="image-container"
         >
@@ -80,11 +80,11 @@
         </div>
       </div>
     </div>
-    <div class="epk-details__visuals section">
-      <h2>Visuals</h2>
+    <div class="epk-details__images section">
+      <h2>Images</h2>
       <div class="images-container">
         <div
-          v-for="image in visuals"
+          v-for="image in images"
           :key="image.id"
           class="image-container"
         >
