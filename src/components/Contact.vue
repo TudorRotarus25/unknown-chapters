@@ -4,8 +4,10 @@
     <div class="contact__content">
       <div class="description">
         <p>
-          We're a five-piece Indie Pop-Rock band formed in London in late 2017, tracing
-          a crossroad between Red Hot Chilli Peppers and early Maroon 5.
+          Unknown Chapters is a four-piece Alternative Pop-Rock band formed in London in late 2017.
+          Delivering powerful honeyed vocals within dark-ballady pianos and shimmery guitars, the
+          quartet sets the soundtrack to an imaginary movie that will take you to the core of their
+          art.
         </p>
       </div>
       <div class="socialMediaContent">

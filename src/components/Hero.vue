@@ -6,7 +6,7 @@
     <div class="hero__caption">
       ALLIGATOR
       <p class="hero__subCaption">
-        OUR NEW SINGLE<span class="separator"> - </span><span class="outSoon">OUT SOON</span>
+        OUR NEW SINGLE<span class="separator"> - </span><span class="outSoon">OUT NOW</span>
       </p>
     </div>
   </div>

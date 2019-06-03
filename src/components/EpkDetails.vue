@@ -4,21 +4,18 @@
     <div class="epk-details__bio section">
       <h2>Bio</h2>
       <p>
-        Unknown Chapters are a five-piece Indie Pop-Rock band formed in London in late 2017.
-        Blending Pop vocal melodies with a more Funk-Rock sound, the band is a crossroad between
-        Red Hot Chilli Peppers and early Maroon 5.
+        Unknown Chapters is a four-piece Alternative Pop-Rock band formed in London in late 2017.
+        Delivering powerful honeyed vocals within dark-ballady pianos and shimmery guitars, the
+        quartet sets the soundtrack to an imaginary movie that will take you to the core of their
+        art.
       </p>
       <p>
-        In the past months, Unknown Chapters have been recording their debut EP, which is to
-        be released later this year. The very first song to appear online is the incredibly
-        catchy ‘Losing my Mind’, released on July 25th, along with a music video. The EP’s
-        songs have been recorded with promising young producer David Flahou, and mixed & mastered
-        by Grammy-nominated engineer Jonas Westling (Lady Gaga, etc). Unknown Chapters have also
-        started climbing the London live circuit ladder, headlining historic venues such as The
-        Water Rats, Nambucca and The Hope & Anchor.
-      </p>
-      <p>
-        The band is on a mission to make their mark on the UK music scene and beyond.
+        After releasing their first two singles "Losing My Mind" and "Alligator", recorded with
+        promising young producer David Flahou, and mixed & mastered by Grammy-nominated engineer
+        Jonas Westling (Lady Gaga, etc.), the band has devoted itself to the writing of its debut
+        album. It has also started climbing the London live circuit ladder, headlining
+        historic venues such as The Water Rats, Nambucca, The Hope & Anchor, The Islington, and
+        securing a slot for Camden Rocks Festival 2019.
       </p>
     </div>
     <div class="epk-details__members section">
@@ -31,13 +28,10 @@
           Lorenzo Calvo - Guitar
         </li>
         <li>
-          Tudor Rotarus – Bass
-        </li>
-        <li>
           Cléo Du Bois – Keyboard
         </li>
         <li>
-          Jake Randall - Drums
+          Tudor Rotarus – Bass
         </li>
       </ul>
     </div>

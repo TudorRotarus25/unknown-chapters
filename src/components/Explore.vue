@@ -1,23 +1,5 @@
 <template>
   <div class="explore">
-    <div class="latestRelease">
-      <a target="_blank" href="https://open.spotify.com/album/5kWPhip1gDKVphbRrcIpg4">
-        <div
-          class="imageContainer"
-        >
-          <img
-            ref="latestReleaseImage"
-            src="../assets/losingMyMind.jpg"
-          />
-        </div>
-        <div class="cta">
-          <p>
-            Check out our music
-          </p>
-          <span class="button">Open on Spotify</span>
-        </div>
-      </a>
-    </div>
     <div class="nextEvent">
       <a target="_blank" href="https://www.facebook.com/pg/unknownchapters/events/">
         <div class="imageContainer">
@@ -33,7 +15,24 @@
           <span class="button">Open on Facebook</span>
         </div>
       </a>
-
+    </div>
+    <div class="latestRelease">
+      <a target="_blank" href="https://open.spotify.com/album/5kWPhip1gDKVphbRrcIpg4">
+        <div
+          class="imageContainer"
+        >
+          <img
+            ref="latestReleaseImage"
+            src="../assets/alligator.jpg"
+          />
+        </div>
+        <div class="cta">
+          <p>
+            Check out our music
+          </p>
+          <span class="button">Open on Spotify</span>
+        </div>
+      </a>
     </div>
     <div class="pictures">
       <a target="_blank" href="https://www.instagram.com/unknownchapters/">
@@ -133,11 +132,11 @@ export default {
     $linearAngle: 60deg;
 
     .latestRelease {
-      background: linear-gradient($linearAngle, #592766, #ff3141);
+      background: linear-gradient($linearAngle, #013142, #01a5a2);
     }
 
     .nextEvent {
-      background: linear-gradient($linearAngle, #013142, #01a5a2);
+      background: linear-gradient($linearAngle, #592766, #ff3141);
     }
 
     .pictures {
