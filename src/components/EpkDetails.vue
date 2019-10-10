@@ -33,24 +33,8 @@
         <li>
           Tudor Rotarus – Bass
         </li>
-      </ul>
-    </div>
-    <div class="epk-details__press-articles section">
-      <h2>Press Articles</h2>
-      <ul class="press-articles-list">
-        <li
-          v-for="pressArticle in pressArticles"
-          :key="pressArticle.id"
-          class="press-articles-list__item"
-        >
-          <a
-            :alt="pressArticle.name"
-            :href="pressArticle.url"
-            target="_blank"
-            class="press-articles-list__anchor"
-          >
-            {{ pressArticle.name }}
-          </a>
+        <li>
+          Łukasz Pietraszewski – Drums
         </li>
       </ul>
     </div>

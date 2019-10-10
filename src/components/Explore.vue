@@ -5,7 +5,7 @@
         <div class="imageContainer">
           <img
             ref="nexEventImage"
-            src="../assets/gigs.jpg"
+            src="../assets/Final07111.jpg"
           />
         </div>
         <div class="cta">
@@ -23,7 +23,7 @@
         >
           <img
             ref="latestReleaseImage"
-            src="../assets/alligator.jpg"
+            src="../assets/born-and-bred-artwork.jpg"
           />
         </div>
         <div class="cta">

@@ -1,10 +1,10 @@
 <template>
   <div class="hero">
     <div class="hero__imageContainer">
-      <img src="../assets/aligatorWebSite.png">
+      <img src="../assets/born-and-bred-artwork.jpg">
     </div>
     <div class="hero__caption">
-      ALLIGATOR
+      BORN AND BRED
       <p class="hero__subCaption">
         OUR NEW SINGLE<span class="separator"> - </span><span class="outSoon">OUT NOW</span>
       </p>
@@ -30,14 +30,16 @@ export default {
 
     &__imageContainer {
       position: absolute;
-      top: 50%;
+      top: 45%;
       left: 0;
       width: 100%;
       transform: translateY(-50%);
 
       img {
-        max-width: 500px;
+        max-width: 250px;
         width: 80%;
+        border: 1px solid #000;
+        box-shadow: 11px 11px 20px 3px rgba(0, 0, 0, .5);
       }
     }
 
