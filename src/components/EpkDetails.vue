@@ -4,18 +4,26 @@
     <div class="epk-details__bio section">
       <h2>Bio</h2>
       <p>
-        Unknown Chapters is a four-piece Alternative Pop-Rock band formed in London in late 2017.
-        Delivering powerful honeyed vocals within dark-ballady pianos and shimmery guitars, the
-        quartet sets the soundtrack to an imaginary movie that will take you to the core of their
-        art.
+        Balancing the ambition to deliver a distinctive palette of sound with the aim of maintaining
+        a Pop sensibility in their songwriting, Unknown Chapters sets the soundtrack to an imaginary
+        movie.
+        We are in 2069; Planet Earth is doomed to die. After having exploited all of its resources,
+        Mankind moves to Mars to establish their new home. But destitute communities cannot afford
+        the travel and new generations are Born and Bred to survive the critical conditions of the
+        final days of life on Earth.
       </p>
       <p>
-        After releasing their first two singles "Losing My Mind" and "Alligator", recorded with
-        promising young producer David Flahou, and mixed & mastered by Grammy-nominated engineer
-        Jonas Westling (Lady Gaga, etc.), the band has devoted itself to the writing of its debut
-        album. It has also started climbing the London live circuit ladder, headlining
-        historic venues such as The Water Rats, Nambucca, The Hope & Anchor, The Islington, and
-        securing a slot for Camden Rocks Festival 2019.
+        As you travel through their world, the rolling of drums sets the pace while dark-ballady
+        pianos, shimmery guitars and honeyed vocals accompany you to the final destination: Mars.
+      </p>
+      <p>
+        After performing at festivals such as Camden Rocks and Rock at The Castle, and releasing
+        their first two singles "Losing My Mind" and "Alligator", recorded with promising young
+        producer David Flahou and mixed & mastered by Grammy-nominated engineer Jonas Westling
+        (Lady Gaga, etc.), the Alternative Pop-Rock band devoted its’ past year to the writing of
+        their debut EP. They wanted the album to have a conceptual purpose that could embody the
+        social context they grew up in, while delivering meaningful Rock music. The first track of
+        the EP to appear online will be “Born and Bred”, due to be released on the 11th of October.
       </p>
     </div>
     <div class="epk-details__members section">

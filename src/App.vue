@@ -23,12 +23,6 @@ export default {
 <style lang="scss">
   @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400');
 
-  @font-face {
-    font-family: "Le Murmure";
-    src: url("./assets/le-murmure.otf");
-    font-weight: 600;
-  }
-
   html {
     font-size: 14px;
 
