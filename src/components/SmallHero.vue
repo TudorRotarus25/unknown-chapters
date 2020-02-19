@@ -1,9 +1,8 @@
 <template>
-  <div class="small-hero">
-    <div class="small-hero__imageContainer">
-      <img src="../assets/aligatorWebSite.png">
-    </div>
-  </div>
+  <div
+    class="small-hero"
+    :style="`background-image: url('${ require('../assets/b&b_cover.jpg') }'`"
+  />
 </template>
 
 <script>
@@ -17,20 +16,15 @@ export default {
   scoped
 >
   .small-hero {
-    height: 250px;
-    position: relative;
+    height: 70vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    background-color: #000;
 
-    &__imageContainer {
-      position: absolute;
-      top: 50%;
-      left: 0;
-      width: 100%;
-      transform: translateY(-50%);
-
-      img {
-        max-width: 300px;
-        width: 80%;
-      }
+    @media screen and (min-width: 700px) {
+      height: calc(100vh - 268px);
+      background-size: auto 100%;
     }
   }
 </style>

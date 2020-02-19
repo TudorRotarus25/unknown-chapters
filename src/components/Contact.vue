@@ -1,18 +1,23 @@
 <template>
   <div class="contact">
-    <div class="contact__inner"/>
-    <div class="contact__content">
-      <div class="description">
-        <p>
-          Unknown Chapters is a four-piece Alternative Pop-Rock band formed in London in late 2017.
-          Delivering powerful honeyed vocals within dark-ballady pianos and shimmery guitars, the
-          quartet sets the soundtrack to an imaginary movie that will take you to the core of their
-          art.
-        </p>
-      </div>
-      <div class="socialMediaContent">
-        <social-media/>
-      </div>
+    <div class="description">
+      <p>
+        Balancing the ambition to deliver a distinctive palette of sound with the aim of
+        maintaining a Pop sensibility in their songwriting, Unknown Chapters sets the soundtrack
+        to an imaginary movie. As you travel through their world, the rolling of drums sets the
+        pace while dark-ballady pianos, shimmery guitars and honeyed vocals accompany you to the
+        final destination: Mars.
+      </p>
+      <p>
+        After performing at festivals such as Camden Rocks and Rock at The Castle, the
+        Alternative Pop-Rock band devoted its past year to the writing of their debut EP. They
+        wanted the album to have a conceptual purpose that could embody the social context they
+        grew up in, while delivering meaningful Rock music. The first track of the EP to appear
+        online is “Born and Bred”, released in October 2019.
+      </p>
+    </div>
+    <div class="socialMediaContent">
+      <social-media/>
     </div>
   </div>
 </template>
@@ -33,66 +38,30 @@ export default {
   scoped
 >
   .contact {
-    height: 480px;
-    overflow: hidden;
-    position: relative;
+    background-color: #000;
+    clip-path: polygon(0 15vw, 100% 0, 100% 100%, 0% 100%);
 
-    @media screen and (min-width: 768px) {
-      height: 700px;
-    }
-
-    &__inner {
-      position: absolute;
-      transform: rotate(-5deg);
-      width:120%;
-      top: 5%;
-      bottom: -5%;
-      left:-5%;
-      background-color: #000;
+    .description {
+      max-width: 900px;
+      margin: auto;
+      font-size: 1.4rem;
+      font-weight: 300;
+      padding: 20vw 20px 10px;
+      color: #fff;
+      line-height: 1.3;
 
       @media screen and (min-width: 500px) {
-        width:110%;
-        top: 20%;
-        bottom: -20%;
+        padding: 20vw 50px 10px;
+      }
+
+      @media screen and (min-width: 768px) {
+        padding: 20vw 70px 10px;
+        font-size: 1.7rem;
       }
     }
 
-    &__content {
-      position: absolute;
-      top: 15%;
-      bottom: 0;
-      width: 100%;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-
-      @media screen and (min-width: 500px) {
-        top: 33%;
-      }
-
-      .description {
-        max-width: 900px;
-        font-size: 1.4rem;
-        font-weight: 300;
-        padding: 10px 20px;
-        color: #fff;
-        line-height: 1.3;
-
-        @media screen and (min-width: 500px) {
-          padding: 10px 50px;
-        }
-
-        @media screen and (min-width: 768px) {
-          padding: 10px 70px;
-          font-size: 1.7rem;
-        }
-      }
-
-      .socialMediaContent {
-        padding: 10px 0;
-      }
+    .socialMediaContent {
+      padding: 10px 0 50px;
     }
   }
 </style>

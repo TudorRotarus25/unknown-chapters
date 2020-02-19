@@ -137,6 +137,7 @@ export default {
   .epk-details {
     max-width: 900px;
     margin: 0 auto;
+    padding-top: 20px;
     line-height: 1.3;
     font-size: 1.1em;
 
