@@ -6,11 +6,10 @@
       <p>
         Balancing the ambition to deliver a distinctive palette of sound with the aim of maintaining
         a Pop sensibility in their songwriting, Unknown Chapters sets the soundtrack to an imaginary
-        movie.
-        We are in 2069; Planet Earth is doomed to die. After having exploited all of its resources,
-        Mankind moves to Mars to establish their new home. But destitute communities cannot afford
-        the travel and new generations are Born and Bred to survive the critical conditions of the
-        final days of life on Earth.
+        movie. We are in 2069; Planet Earth is doomed to die. After having exploited all of its
+        resources, Mankind moves to Mars to establish their new home. But destitute communities
+        cannot afford the travel and new generations are Born and Bred to survive the critical
+        conditions of the final days of life on Earth.
       </p>
       <p>
         As you travel through their world, the rolling of drums sets the pace while dark-ballady
@@ -20,10 +19,10 @@
         After performing at festivals such as Camden Rocks and Rock at The Castle, and releasing
         their first two singles "Losing My Mind" and "Alligator", recorded with promising young
         producer David Flahou and mixed & mastered by Grammy-nominated engineer Jonas Westling
-        (Lady Gaga, etc.), the Alternative Pop-Rock band devoted its’ past year to the writing of
+        (Lady Gaga, etc.), the Alternative Pop-Rock band devoted its past year to the writing of
         their debut EP. They wanted the album to have a conceptual purpose that could embody the
         social context they grew up in, while delivering meaningful Rock music. The first track of
-        the EP to appear online will be “Born and Bred”, due to be released on the 11th of October.
+        the EP to appear online is “Born and Bred”, released in October 2019.
       </p>
     </div>
     <div class="epk-details__members section">
@@ -46,11 +45,11 @@
         </li>
       </ul>
     </div>
-    <div class="epk-details__visuals section">
-      <h2>Visuals</h2>
+    <div class="epk-details__images section">
+      <h2>Images</h2>
       <div class="images-container">
         <div
-          v-for="image in visuals"
+          v-for="image in images"
           :key="image.id"
           class="image-container"
         >
@@ -66,11 +65,11 @@
         </div>
       </div>
     </div>
-    <div class="epk-details__images section">
-      <h2>Images</h2>
+    <div class="epk-details__visuals section">
+      <h2>Visuals</h2>
       <div class="images-container">
         <div
-          v-for="image in images"
+          v-for="image in visuals"
           :key="image.id"
           class="image-container"
         >
