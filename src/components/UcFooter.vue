@@ -2,7 +2,7 @@
   <footer>
     <div class="container">
       <div class="container__left">
-        © Unknown Chapters 2018
+        © Unknown Chapters {{ year }}
       </div>
       <div
         class="container__right"
@@ -19,6 +19,15 @@
 <script>
 export default {
   name: 'UcFooter',
+  data() {
+    return {
+      year: '',
+    };
+  },
+  created() {
+    const todayDate = new Date();
+    this.year = todayDate.getFullYear();
+  },
 };
 </script>
 
