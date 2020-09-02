@@ -7,27 +7,27 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
-    "deploy": "node node_modules/s3-deploy/.bin/s3-deploy './dist/**' --cwd './dist/' --region eu-west-2 --bucket unknownchapters.com --profile default",
+    "deploy": "s3-deploy './dist/**' --cwd './dist/' --region eu-west-2 --bucket unknownchapters.com --profile default",
     "release": "npm run build && npm run deploy"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.4.0",
     "axios": "0.19.0",
     "lodash": "^4.17.20",
-    "vue": "^2.6.10",
+    "vue": "^2.6.12",
     "vue-router": "3.0.6"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.8.0",
-    "@vue/cli-plugin-eslint": "^3.0.5",
-    "@vue/cli-plugin-unit-mocha": "^3.0.5",
-    "@vue/cli-service": "^3.8.0",
+    "@vue/cli-plugin-babel": "^3.12.1",
+    "@vue/cli-plugin-eslint": "^3.12.1",
+    "@vue/cli-plugin-unit-mocha": "^3.12.1",
+    "@vue/cli-service": "^3.12.1",
     "@vue/eslint-config-airbnb": "^3.0.5",
-    "@vue/test-utils": "^1.0.0-beta.20",
+    "@vue/test-utils": "^1.0.4",
     "chai": "^4.1.2",
     "node-sass": "^4.14.1",
-    "s3-deploy": "^1.2.0",
+    "s3-deploy": "^1.4.0",
     "sass-loader": "7.1.0",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.12"
   }
 }
