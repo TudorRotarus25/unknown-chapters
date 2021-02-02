@@ -12,8 +12,7 @@
         After performing at festivals such as Camden Rocks and Rock at The Castle, the
         Alternative Pop-Rock band devoted its past year to the writing of their debut EP. They
         wanted the album to have a conceptual purpose that could embody the social context they
-        grew up in, while delivering meaningful Rock music. The first track of the EP to appear
-        online is “Born and Bred”, released in October 2019.
+        grew up in, while delivering meaningful Rock music.
       </p>
     </div>
     <div class="socialMediaContent">

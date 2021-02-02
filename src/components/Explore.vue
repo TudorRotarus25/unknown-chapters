@@ -17,13 +17,13 @@
       </a>
     </div>
     <div class="latestRelease">
-      <a target="_blank" href="https://open.spotify.com/album/5kWPhip1gDKVphbRrcIpg4">
+      <a target="_blank" href="https://open.spotify.com/album/0GGseCca5ODix1b7mEAXL8">
         <div
           class="imageContainer"
         >
           <img
             ref="latestReleaseImage"
-            src="../assets/born-and-bred-artwork.jpg"
+            src="../assets/frozen-bones-artwork.jpg"
           />
         </div>
         <div class="cta">

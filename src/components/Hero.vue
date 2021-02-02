@@ -1,10 +1,10 @@
 <template>
   <div class="hero">
     <div class="hero__imageContainer">
-      <img src="../assets/born-and-bred-artwork.jpg">
+      <img src="../assets/frozen-bones-artwork.jpg">
     </div>
     <div class="hero__caption">
-      BORN AND BRED
+      FROZEN BONES
       <p class="hero__subCaption">
         OUR NEW SINGLE<span class="separator"> - </span><span class="outSoon">OUT NOW</span>
       </p>
