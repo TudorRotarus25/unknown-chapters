@@ -26,41 +26,13 @@ export default {
   mounted() {
     const maxNumberOfImages = 5;
 
-    axios.get('https://www.instagram.com/unknownchapters/?__a=1')
+    axios.get('http://images.unknownchapters.com/instagram-images.json')
       .then((response) => {
         if (!response || !response.data) {
           return;
         }
 
-        const json = response.data;
-
-        if (
-          !json.graphql
-          || !json.graphql.user
-          || !json.graphql.user.edge_owner_to_timeline_media
-        ) {
-          console.error('Instagram data is not in the correct format: ', json);
-          return;
-        }
-
-        const nodes = json.graphql.user.edge_owner_to_timeline_media.edges;
-
-        const usedImages = 0;
-        let nodesIndex = 0;
-
-        while (usedImages < maxNumberOfImages && nodesIndex < nodes.length) {
-          const { node } = nodes[nodesIndex];
-          const { __typename: type, display_url: displayUrl } = node;
-
-          if (type === 'GraphImage' || type === 'GraphSidecar') {
-            this.images.push(displayUrl);
-          }
-          nodesIndex += 1;
-        }
-
-        response.data.data.slice(0, 5).forEach((post) => {
-          this.images.push(post.images.standard_resolution.url);
-        });
+        this.images = response.data;
       });
   },
 };
