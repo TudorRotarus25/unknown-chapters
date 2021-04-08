@@ -23,17 +23,13 @@ export default {
       images: [],
     };
   },
-  mounted() {
-    const maxNumberOfImages = 5;
+  async mounted() {
+    const response = await axios.get('https://unknownchapters-epk.s3.eu-west-2.amazonaws.com/instagram-images.json');
 
-    axios.get('http://images.unknownchapters.com/instagram-images.json')
-      .then((response) => {
-        if (!response || !response.data) {
-          return;
-        }
-
-        this.images = response.data;
-      });
+    if (!response || !response.data) {
+      return;
+    }
+    this.images = response.data;
   },
 };
 </script>
