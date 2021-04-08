@@ -1,12 +1,12 @@
 <template>
   <div class="hero">
     <div class="hero__imageContainer">
-      <img src="../assets/frozen-bones-artwork.jpg">
+      <img src="../assets/close-to-you-artwork.jpeg">
     </div>
     <div class="hero__caption">
-      FROZEN BONES
+      CLOSE TO YOU
       <p class="hero__subCaption">
-        OUR NEW SINGLE<span class="separator"> - </span><span class="outSoon">OUT NOW</span>
+        OUR NEW SINGLE<span class="separator"> - </span><a class="outSoon" href="https://lnkfi.re/ClosetoU" target="_blank">OUT NOW</a>
       </p>
     </div>
   </div>
@@ -80,6 +80,8 @@ export default {
       .outSoon {
         display: block;
         margin-top: 8px;
+        text-decoration: none;
+        color: #8f3d7c;
 
         @media screen and (min-width: 600px) {
           display: inline-block;

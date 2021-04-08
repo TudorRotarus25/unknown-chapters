@@ -4,25 +4,24 @@
     <div class="epk-details__bio section">
       <h2>Bio</h2>
       <p>
-        Balancing the ambition to deliver a distinctive palette of sound with the aim of maintaining
-        a Pop sensibility in their songwriting, Unknown Chapters sets the soundtrack to an imaginary
-        movie. We are in 2069; Planet Earth is doomed to die. After having exploited all of its
-        resources, Mankind moves to Mars to establish their new home. But destitute communities
-        cannot afford the travel and new generations are Born and Bred to survive the critical
-        conditions of the final days of life on Earth.
+        The London-based quintet Unknown Chapters, composed of Andrei Dutu (vocals), Lorenzo Calvo
+        (guitar), Cléo Du Bois (keyboard), Tudor Rotarus (bass) and Łukasz Pietraszewski (drums),
+        was formed in 2017, as the members bonded over their shared love of alternative pop-rock music.
       </p>
       <p>
-        As you travel through their world, the rolling of drums sets the pace while dark-ballady
-        pianos, shimmery guitars and honeyed vocals accompany you to the final destination: Mars.
+        After exploring the many facets of their artistry, blending genres and influences, the band
+        self-released their debut EP “The Age of Dying Radio”, setting the soundtrack to an imaginary
+        future script where Mankind moves to Mars to establish their new home.
       </p>
       <p>
-        After performing at festivals such as Camden Rocks and Rock at The Castle, and releasing
-        their first two singles "Losing My Mind" and "Alligator", recorded with promising young
-        producer David Flahou and mixed & mastered by Grammy-nominated engineer Jonas Westling
-        (Lady Gaga, etc.), the Alternative Pop-Rock band devoted its past year to the writing of
-        their debut EP. They wanted the album to have a conceptual purpose that could embody the
-        social context they grew up in, while delivering meaningful Rock music. The first track of
-        the EP to appear online is “Born and Bred”, released in October 2019.
+        After performing at festivals such as Camden Rocks and Rock at The Castle and collaborating
+        with Grammy-nominated engineers Jonas Westling (Lady Gaga, etc.), Pete Maher (U2, The 1975,
+        One Republic, etc.) and promising young producers such as David Flahou and Marek Deml (Sam Smith, etc.),
+        the band announced that it would write, record and release one song every month for a year (2021).
+      </p>
+      <p>
+        In just a few months, the band has received national radio airplay and reached over 10K monthly listeners
+        on Spotify.
       </p>
     </div>
     <div class="epk-details__members section">

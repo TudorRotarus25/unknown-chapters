@@ -2,17 +2,14 @@
   <div class="contact">
     <div class="description">
       <p>
-        Balancing the ambition to deliver a distinctive palette of sound with the aim of
-        maintaining a Pop sensibility in their songwriting, Unknown Chapters sets the soundtrack
-        to an imaginary movie. As you travel through their world, the rolling of drums sets the
-        pace while dark-ballady pianos, shimmery guitars and honeyed vocals accompany you to the
-        final destination: Mars.
+        The London-based quintet Unknown Chapters, composed of Andrei Dutu (vocals), Lorenzo Calvo 
+        (guitar), Cléo Du Bois (keyboard), Tudor Rotarus (bass) and Łukasz Pietraszewski (drums), 
+        was formed in 2017, as the members bonded over their shared love of alternative pop-rock music.
       </p>
       <p>
-        After performing at festivals such as Camden Rocks and Rock at The Castle, the
-        Alternative Pop-Rock band devoted its past year to the writing of their debut EP. They
-        wanted the album to have a conceptual purpose that could embody the social context they
-        grew up in, while delivering meaningful Rock music.
+        After exploring the many facets of their artistry, blending genres and influences, the band 
+        self-released their debut EP “The Age of Dying Radio”, setting the soundtrack to an imaginary 
+        future script where Mankind moves to Mars to establish their new home.
       </p>
     </div>
     <div class="socialMediaContent">
