@@ -17,13 +17,13 @@
       </a>
     </div>
     <div class="latestRelease">
-      <a target="_blank" href="https://open.spotify.com/album/5QupblecS3ftnq8mTRwH8h">
+      <a target="_blank" href="https://open.spotify.com/album/7byWAiDuHOen1u9sdTSvOh">
         <div
           class="imageContainer"
         >
           <img
             ref="latestReleaseImage"
-            src="../assets/close-to-you-artwork.jpeg"
+            src="../assets/ink.jpg"
           />
         </div>
         <div class="cta">

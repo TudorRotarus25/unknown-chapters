@@ -1,12 +1,12 @@
 <template>
   <div class="hero">
     <div class="hero__imageContainer">
-      <img src="../assets/close-to-you-artwork.jpeg">
+      <img src="../assets/ink.jpg">
     </div>
     <div class="hero__caption">
-      CLOSE TO YOU
+      INK
       <p class="hero__subCaption">
-        OUR NEW SINGLE<span class="separator"> - </span><a class="outSoon" href="https://lnkfi.re/ClosetoU" target="_blank">OUT NOW</a>
+        OUR NEW SINGLE<span class="separator"> - </span><a class="outSoon" href="https://lnkfi.re/ink" target="_blank">OUT NOW</a>
       </p>
     </div>
   </div>
