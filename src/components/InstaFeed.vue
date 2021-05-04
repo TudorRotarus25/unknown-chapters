@@ -14,22 +14,13 @@
 </template>
 
 <script>
-import axios from 'axios';
-
 export default {
   name: 'InstaFeed',
   data() {
+    const images = [1, 2, 3, 4, 5].map(index => `http://images.unknownchapters.com/instagram-images/image-${index}.jpg`);
     return {
-      images: [],
+      images,
     };
-  },
-  async mounted() {
-    const response = await axios.get('https://unknownchapters-epk.s3.eu-west-2.amazonaws.com/instagram-images.json');
-
-    if (!response || !response.data) {
-      return;
-    }
-    this.images = response.data;
   },
 };
 </script>
